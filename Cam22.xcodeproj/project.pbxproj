@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544C2C04150D1B32004A6BD5 /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544C2C03150D1B32004A6BD5 /* FullImageViewController.m */; };
+		54A556271508DA69006B5248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A556261508DA69006B5248 /* ViewController.m */; };
+		54A5563015091CA0006B5248 /* AssetsLibrary in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5562815091CA0006B5248 /* AssetsLibrary */; };
+		54A9EAE31593BCA80018C80D /* Date_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A9EAE21593BCA80018C80D /* Date_Class.m */; };
+		54A9EAE41593BCA80018C80D /* Date_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A9EAE21593BCA80018C80D /* Date_Class.m */; };
+		54A9EAE91593C1FB0018C80D /* Capture_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A9EAE81593C1FB0018C80D /* Capture_Class.m */; };
+		54A9EAEA1593C1FB0018C80D /* Capture_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A9EAE81593C1FB0018C80D /* Capture_Class.m */; };
+		54C5F83A1506D05C0001D815 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C5F8391506D05C0001D815 /* iPad.storyboard */; };
 		54C6D3F61505A523007CFE36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D3F51505A523007CFE36 /* UIKit.framework */; };
 		54C6D3F81505A523007CFE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D3F71505A523007CFE36 /* Foundation.framework */; };
 		54C6D3FA1505A523007CFE36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D3F91505A523007CFE36 /* CoreGraphics.framework */; };
 		54C6D4001505A523007CFE36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54C6D3FE1505A523007CFE36 /* InfoPlist.strings */; };
 		54C6D4021505A523007CFE36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6D4011505A523007CFE36 /* main.m */; };
 		54C6D4061505A523007CFE36 /* CamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6D4051505A523007CFE36 /* CamAppDelegate.m */; };
-		54C6D4091505A523007CFE36 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C6D4071505A523007CFE36 /* MainStoryboard.storyboard */; };
-		54C6D40C1505A523007CFE36 /* CamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6D40B1505A523007CFE36 /* CamViewController.m */; };
 		54C6D4141505A523007CFE36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D4131505A523007CFE36 /* SenTestingKit.framework */; };
 		54C6D4151505A523007CFE36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D3F51505A523007CFE36 /* UIKit.framework */; };
 		54C6D4161505A523007CFE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D3F71505A523007CFE36 /* Foundation.framework */; };
 		54C6D41E1505A523007CFE36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54C6D41C1505A523007CFE36 /* InfoPlist.strings */; };
 		54C6D4211505A523007CFE36 /* Cam22Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6D4201505A523007CFE36 /* Cam22Tests.m */; };
+		54C6D42B1505A5B2007CFE36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D42A1505A5B2007CFE36 /* AVFoundation.framework */; };
+		54C6D42D1505A5BD007CFE36 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D42C1505A5BD007CFE36 /* CoreImage.framework */; };
+		54C6D42F1505A5C7007CFE36 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D42E1505A5C7007CFE36 /* CoreMedia.framework */; };
+		54C6D4311505A5E7007CFE36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D4301505A5E7007CFE36 /* MobileCoreServices.framework */; };
+		54C6D4331505A5F8007CFE36 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D4321505A5F8007CFE36 /* ImageIO.framework */; };
+		54C6D4351505A8CB007CFE36 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D4341505A8CB007CFE36 /* CoreVideo.framework */; };
+		54C6D43B15062C43007CFE36 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6D43A15062C43007CFE36 /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		54C6D43D15067E6E007CFE36 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C6D43C15067E6E007CFE36 /* iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +47,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544C2C02150D1B32004A6BD5 /* FullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageViewController.h; sourceTree = "<group>"; };
+		544C2C03150D1B32004A6BD5 /* FullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
+		54A556251508DA69006B5248 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54A556261508DA69006B5248 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54A5562815091CA0006B5248 /* AssetsLibrary */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = AssetsLibrary; sourceTree = "<group>"; };
+		54A5562A15091CA0006B5248 /* ALAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAsset.h; sourceTree = "<group>"; };
+		54A5562B15091CA0006B5248 /* ALAssetRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetRepresentation.h; sourceTree = "<group>"; };
+		54A5562C15091CA0006B5248 /* ALAssetsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetsFilter.h; sourceTree = "<group>"; };
+		54A5562D15091CA0006B5248 /* ALAssetsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetsGroup.h; sourceTree = "<group>"; };
+		54A5562E15091CA0006B5248 /* ALAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetsLibrary.h; sourceTree = "<group>"; };
+		54A5562F15091CA0006B5248 /* AssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsLibrary.h; sourceTree = "<group>"; };
+		54A9EAE11593BCA80018C80D /* Date_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date_Class.h; sourceTree = "<group>"; };
+		54A9EAE21593BCA80018C80D /* Date_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date_Class.m; sourceTree = "<group>"; };
+		54A9EAE71593C1FB0018C80D /* Capture_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Capture_Class.h; path = Cam22/Capturing/Capture_Class.h; sourceTree = "<group>"; };
+		54A9EAE81593C1FB0018C80D /* Capture_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Capture_Class.m; path = Cam22/Capturing/Capture_Class.m; sourceTree = "<group>"; };
+		54C5F8391506D05C0001D815 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPad.storyboard; path = Cam22/iPad.storyboard; sourceTree = "<group>"; };
 		54C6D3F11505A523007CFE36 /* Cam22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cam22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C6D3F51505A523007CFE36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54C6D3F71505A523007CFE36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54C6D3F91505A523007CFE36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		54C6D3FD1505A523007CFE36 /* Cam22-Info.plist */ = {isa = PBXFileReference; path = "Cam22-Info.plist"; sourceTree = "<group>"; };
+		54C6D3FD1505A523007CFE36 /* Cam22-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cam22-Info.plist"; sourceTree = "<group>"; };
 		54C6D3FF1505A523007CFE36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54C6D4011505A523007CFE36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54C6D4031505A523007CFE36 /* Cam22-Prefix.pch */ = {isa = PBXFileReference; path = "Cam22-Prefix.pch"; sourceTree = "<group>"; };
-		54C6D4041505A523007CFE36 /* CamAppDelegate.h */ = {isa = PBXFileReference; path = CamAppDelegate.h; sourceTree = "<group>"; };
+		54C6D4031505A523007CFE36 /* Cam22-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cam22-Prefix.pch"; sourceTree = "<group>"; };
+		54C6D4041505A523007CFE36 /* CamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CamAppDelegate.h; sourceTree = "<group>"; };
 		54C6D4051505A523007CFE36 /* CamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamAppDelegate.m; sourceTree = "<group>"; };
-		54C6D4081505A523007CFE36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		54C6D40A1505A523007CFE36 /* CamViewController.h */ = {isa = PBXFileReference; path = CamViewController.h; sourceTree = "<group>"; };
-		54C6D40B1505A523007CFE36 /* CamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamViewController.m; sourceTree = "<group>"; };
 		54C6D4121505A523007CFE36 /* Cam22Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cam22Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C6D4131505A523007CFE36 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54C6D41B1505A523007CFE36 /* Cam22Tests-Info.plist */ = {isa = PBXFileReference; path = "Cam22Tests-Info.plist"; sourceTree = "<group>"; };
+		54C6D41B1505A523007CFE36 /* Cam22Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cam22Tests-Info.plist"; sourceTree = "<group>"; };
 		54C6D41D1505A523007CFE36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54C6D41F1505A523007CFE36 /* Cam22Tests.h */ = {isa = PBXFileReference; path = Cam22Tests.h; sourceTree = "<group>"; };
+		54C6D41F1505A523007CFE36 /* Cam22Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cam22Tests.h; sourceTree = "<group>"; };
 		54C6D4201505A523007CFE36 /* Cam22Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cam22Tests.m; sourceTree = "<group>"; };
+		54C6D42A1505A5B2007CFE36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54C6D42C1505A5BD007CFE36 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		54C6D42E1505A5C7007CFE36 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		54C6D4301505A5E7007CFE36 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		54C6D4321505A5F8007CFE36 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		54C6D4341505A8CB007CFE36 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		54C6D43A15062C43007CFE36 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		54C6D43C15067E6E007CFE36 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +94,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C6D43B15062C43007CFE36 /* AssetsLibrary.framework in Frameworks */,
+				54C6D4351505A8CB007CFE36 /* CoreVideo.framework in Frameworks */,
+				54C6D4331505A5F8007CFE36 /* ImageIO.framework in Frameworks */,
+				54C6D4311505A5E7007CFE36 /* MobileCoreServices.framework in Frameworks */,
+				54C6D42F1505A5C7007CFE36 /* CoreMedia.framework in Frameworks */,
+				54C6D42D1505A5BD007CFE36 /* CoreImage.framework in Frameworks */,
+				54C6D42B1505A5B2007CFE36 /* AVFoundation.framework in Frameworks */,
 				54C6D3F61505A523007CFE36 /* UIKit.framework in Frameworks */,
 				54C6D3F81505A523007CFE36 /* Foundation.framework in Frameworks */,
 				54C6D3FA1505A523007CFE36 /* CoreGraphics.framework in Frameworks */,
+				54A5563015091CA0006B5248 /* AssetsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,11 +121,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A5562915091CA0006B5248 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				54A5562A15091CA0006B5248 /* ALAsset.h */,
+				54A5562B15091CA0006B5248 /* ALAssetRepresentation.h */,
+				54A5562C15091CA0006B5248 /* ALAssetsFilter.h */,
+				54A5562D15091CA0006B5248 /* ALAssetsGroup.h */,
+				54A5562E15091CA0006B5248 /* ALAssetsLibrary.h */,
+				54A5562F15091CA0006B5248 /* AssetsLibrary.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		54A9EAE61593BCB40018C80D /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				54A9EAE21593BCA80018C80D /* Date_Class.m */,
+				54A9EAE11593BCA80018C80D /* Date_Class.h */,
+			);
+			name = Formatters;
+			sourceTree = "<group>";
+		};
+		54A9EAEB1593C2060018C80D /* Image Capture */ = {
+			isa = PBXGroup;
+			children = (
+				54A9EAE71593C1FB0018C80D /* Capture_Class.h */,
+				54A9EAE81593C1FB0018C80D /* Capture_Class.m */,
+			);
+			name = "Image Capture";
+			sourceTree = "<group>";
+		};
 		54C6D3E61505A523007CFE36 = {
 			isa = PBXGroup;
 			children = (
+				54A9EAEB1593C2060018C80D /* Image Capture */,
 				54C6D3FB1505A523007CFE36 /* Cam22 */,
 				54C6D4191505A523007CFE36 /* Cam22Tests */,
+				54C6D43C15067E6E007CFE36 /* iPhone.storyboard */,
+				54C5F8391506D05C0001D815 /* iPad.storyboard */,
+				54A556251508DA69006B5248 /* ViewController.h */,
+				54A556261508DA69006B5248 /* ViewController.m */,
+				544C2C02150D1B32004A6BD5 /* FullImageViewController.h */,
+				544C2C03150D1B32004A6BD5 /* FullImageViewController.m */,
 				54C6D3F41505A523007CFE36 /* Frameworks */,
 				54C6D3F21505A523007CFE36 /* Products */,
 			);
@@ -100,6 +181,13 @@
 		54C6D3F41505A523007CFE36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54C6D43A15062C43007CFE36 /* AssetsLibrary.framework */,
+				54C6D4341505A8CB007CFE36 /* CoreVideo.framework */,
+				54C6D4321505A5F8007CFE36 /* ImageIO.framework */,
+				54C6D4301505A5E7007CFE36 /* MobileCoreServices.framework */,
+				54C6D42E1505A5C7007CFE36 /* CoreMedia.framework */,
+				54C6D42C1505A5BD007CFE36 /* CoreImage.framework */,
+				54C6D42A1505A5B2007CFE36 /* AVFoundation.framework */,
 				54C6D3F51505A523007CFE36 /* UIKit.framework */,
 				54C6D3F71505A523007CFE36 /* Foundation.framework */,
 				54C6D3F91505A523007CFE36 /* CoreGraphics.framework */,
@@ -111,11 +199,9 @@
 		54C6D3FB1505A523007CFE36 /* Cam22 */ = {
 			isa = PBXGroup;
 			children = (
-				54C6D4041505A523007CFE36 /* CamAppDelegate.h */,
-				54C6D4051505A523007CFE36 /* CamAppDelegate.m */,
-				54C6D4071505A523007CFE36 /* MainStoryboard.storyboard */,
-				54C6D40A1505A523007CFE36 /* CamViewController.h */,
-				54C6D40B1505A523007CFE36 /* CamViewController.m */,
+				54A9EAE61593BCB40018C80D /* Formatters */,
+				54A5562815091CA0006B5248 /* AssetsLibrary */,
+				54A5562915091CA0006B5248 /* Headers */,
 				54C6D3FC1505A523007CFE36 /* Supporting Files */,
 			);
 			path = Cam22;
@@ -124,6 +210,8 @@
 		54C6D3FC1505A523007CFE36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54C6D4041505A523007CFE36 /* CamAppDelegate.h */,
+				54C6D4051505A523007CFE36 /* CamAppDelegate.m */,
 				54C6D3FD1505A523007CFE36 /* Cam22-Info.plist */,
 				54C6D3FE1505A523007CFE36 /* InfoPlist.strings */,
 				54C6D4011505A523007CFE36 /* main.m */,
@@ -196,7 +284,7 @@
 		54C6D3E81505A523007CFE36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Develomentional Development";
 			};
 			buildConfigurationList = 54C6D3EB1505A523007CFE36 /* Build configuration list for PBXProject "Cam22" */;
@@ -223,7 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C6D4001505A523007CFE36 /* InfoPlist.strings in Resources */,
-				54C6D4091505A523007CFE36 /* MainStoryboard.storyboard in Resources */,
+				54C6D43D15067E6E007CFE36 /* iPhone.storyboard in Resources */,
+				54C5F83A1506D05C0001D815 /* iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +349,10 @@
 			files = (
 				54C6D4021505A523007CFE36 /* main.m in Sources */,
 				54C6D4061505A523007CFE36 /* CamAppDelegate.m in Sources */,
-				54C6D40C1505A523007CFE36 /* CamViewController.m in Sources */,
+				54A556271508DA69006B5248 /* ViewController.m in Sources */,
+				544C2C04150D1B32004A6BD5 /* FullImageViewController.m in Sources */,
+				54A9EAE31593BCA80018C80D /* Date_Class.m in Sources */,
+				54A9EAE91593C1FB0018C80D /* Capture_Class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C6D4211505A523007CFE36 /* Cam22Tests.m in Sources */,
+				54A9EAE41593BCA80018C80D /* Date_Class.m in Sources */,
+				54A9EAEA1593C1FB0018C80D /* Capture_Class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +383,6 @@
 				54C6D3FF1505A523007CFE36 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		54C6D4071505A523007CFE36 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C6D4081505A523007CFE36 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		54C6D41C1505A523007CFE36 /* InfoPlist.strings */ = {
@@ -361,7 +447,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cam22/Cam22-Prefix.pch";
 				INFOPLIST_FILE = "Cam22/Cam22-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Cam22\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,7 +464,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cam22/Cam22-Prefix.pch";
 				INFOPLIST_FILE = "Cam22/Cam22-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Cam22\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -430,6 +528,7 @@
 				54C6D4261505A523007CFE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54C6D4271505A523007CFE36 /* Build configuration list for PBXNativeTarget "Cam22Tests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +537,7 @@
 				54C6D4291505A523007CFE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
